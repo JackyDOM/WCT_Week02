@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    table{
+      border-collapse: collapse;
+      border: 1px solid black;
+    }
+    th,td{
+      border: 1px solid black;
+      padding: 5px;
+      text-align: left;
+      font-family: Arial;
+      height: 10px;
+      font-size: 15px;
+    }
+    td{
+      background-color: rgb(231, 241, 138);
+    }
+    .title{
+      font-family: Arial;
+      font-size: 40px;
+      margin-bottom: 30px;
+    }
+    .task{
+      font-family: Arial;
+      font-weight: bold;
+      color:seagreen;
+    }
+    .inline{
+      color: rgb(77, 146, 8);
+    }
+    .never{
+      color: blue;
+    }
+    .set{
+      padding-left: 50px;
+    }
+    .margin{
+      padding-left: 50px;
+    }
+  </style>
+</head>
+<body>
+  <p class="title">TASK 1: Create A page Like Below</p>
+  <p class="task">Task 2:</p>
+  <table>
+    <tr>
+      <th style="background-color:darkslateblue; color:white;" width="250px">Name of the feature</th>
+      <th style="background-color: darkslateblue; color:white" width="350px">Example</th>
+      <th style="background-color: darkslateblue; color:white">Default</th>
+    </tr>
+    <tr>
+      <td style="height: 20px;"></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Remove inline styles</td>
+      <td class="inline">You <u class="never">should never</u> use inline styles!</td>
+      <td class="symbol" style="text-align: center;">&#10006;</td>
+    </tr>
+    <tr>
+      <td>Remove classes IDs</td>
+      <td>Use classes to <span style="font-weight: bold;">style everything.</span></td>
+      <td class="symbol" style="text-align: center;">&#10006;</td>
+    </tr>
+    <tr>
+      <td>Remove all tags</td>
+      <td>This leaves <span style="color: blue; font-weight: bold">only the plain</span>
+        <i> text.</i> &#129398;</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Remove successive &amp;nbsp;s</td>
+      <td>Never use non-breaking spaces <span class="set">to set</span>
+        <span class="margin">margins.</span></td>
+      <td class="symbol" style="text-align: center;">&#10006;</td>
+    </tr>
+    <tr>
+      <td>Remove empty tags</td>
+      <td>Empty tags should go!</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Remove tags with one &amp;nbsp;</td>
+      <td>This makes no sense!</td>
+      <td class="symbol" style="text-align: center;">&#10006;</td>
+    </tr>
+    <tr>
+      <td>Remove span tags</td>
+      <td>Span tags with <span style="color: green;">all styles</span></td>
+      <td class="symbol" style="text-align: center;">&#10006;</td>
+    </tr>
+    <tr>
+      <td>Remove images</td>
+      <td>I am an image: &#129398;</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Remove links</td>
+      <td><u style="color: purple;">This is</u> a link.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Remove tables</td>
+      <td>Takes everything out of the table.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Replace table tags with structured divs</td>
+      <td>This text is inside a table.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>
+        Remove comments
+      </td>
+      <td>This is only visible in the source editor</td>
+      <td class="symbol" style="text-align: center;">&#10006;</td>
+    </tr>
+    <tr>
+      <td>Encode special characters</td>
+      <td>
+        <span style="color: red;">&#10084;</span>
+        &#128512;
+        &#128642;
+        &#128514;
+      </td>
+      <td class="symbol" style="text-align: center;">&#10006;</td>
+    </tr>
+    <tr>
+      <td>Set new lines and text indents</td>
+      <td>Organize the tags in a nice tree view.</td>
+      <td></td>
+    </tr>
+  </table>
+</body>
+</html>
